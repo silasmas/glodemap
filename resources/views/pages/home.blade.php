@@ -162,9 +162,9 @@
                                 <div class="card-front">
                                     <i class="mb-4 icon-strategy text-secondary display-14"></i>
                                     <h3 class="mb-3 h4">Médical</h3>
-                                    <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
+                                    <p class="mb-0">Nous avons un centre hospitalier  qui fait la fierté du coin avec des services impeccables.</p>
                                 </div>
-                                <div class="card-back bg-img cover-background" data-background="img/content/service-01.jpg">
+                                <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-01.jpg') }}">
                                     <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
                                 </div>
                             </div>
@@ -176,9 +176,9 @@
                                 <div class="card-front">
                                     <i class="mb-4 icon-bargraph text-secondary display-14"></i>
                                     <h3 class="mb-3 h4">Transport</h3>
-                                    <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
+                                    <p class="mb-0">Un charroi de transport rapide et bien organisé .</p>
                                 </div>
-                                <div class="card-back bg-img cover-background" data-background="img/content/service-02.jpg">
+                                <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-02.jpg') }}">
                                     <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
                                 </div>
                             </div>
@@ -190,9 +190,9 @@
                                 <div class="card-front">
                                     <i class="mb-4 icon-document text-secondary display-14"></i>
                                     <h3 class="mb-3 h4">Douanes</h3>
-                                    <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
+                                    <p class="mb-0">Nous faisons le dédouanement des marchandises en importation et en exportation.</p>
                                 </div>
-                                <div class="card-back bg-img cover-background" data-background="img/content/service-03.jpg">
+                                <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-03.jpg') }}">
                                     <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
                                 </div>
                             </div>
@@ -256,11 +256,11 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="200ms">
                         <div class="become-client-form p-1-6 p-sm-2-9 border-radius-10">
                             <div class="text-center title-style2 text-lg-start mb-1-9">
-                                <span class="sub-title">become a client</span>
-                                <h2 class="mb-0 h1">Ready to Get Started?</h2>
+                                <span class="sub-title">Contact</span>
+                                <h2 class="mb-0 h1">Remplissez ce formulaire</h2>
                             </div>
                             <form class="quform" action="quform/contact.php" method="post" enctype="multipart/form-data" onclick="">
-
+@csrf
                                 <div class="quform-elements">
 
                                     <div class="row">
@@ -319,7 +319,7 @@
                                         <!-- End Textarea element -->
 
                                         <!-- Begin Captcha element -->
-                                        <div class="col-md-12">
+                                        {{-- <div class="col-md-12">
                                             <div class="quform-element">
                                                 <div class="form-group">
                                                     <div class="quform-input">
@@ -334,13 +334,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <!-- End Captcha element -->
 
                                         <!-- Begin Submit button -->
                                         <div class="col-md-12">
                                             <div class="quform-submit-inner">
-                                                <button class="butn" type="submit"><span>Send Message</span></button>
+                                                <button class="butn" type="submit"><span>Envoyer</span></button>
                                             </div>
                                             <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                                         </div>

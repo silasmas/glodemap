@@ -51,8 +51,8 @@
                             <div class="attr-nav align-items-lg-center ms-lg-auto">
                                 <ul>
                                     <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li>
-                                    <li class="d-none d-xl-inline-block"><a href="tel:+1123456789"
-                                            class="text-white shadow-none butn secondary medium">+1 123 456 789</a></li>
+                                    <li class="d-none d-xl-inline-block"><a href="tel:243898552773"
+                                            class="text-white shadow-none butn secondary medium">+243 898552773</a></li>
                                 </ul>
                             </div>
                             <!-- end attribute navigation -->
