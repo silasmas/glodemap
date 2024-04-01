@@ -1,0 +1,67 @@
+<header class="header-style1 menu_area-light">
+
+    <div class="navbar-default border-bottom border-color-light-white">
+
+        <!-- start top search -->
+        <div class="top-search bg-secondary">
+            <div class="container-fluid px-sm-1-6 px-lg-2-9">
+                <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
+                    <div class="input-group">
+                        <span class="cursor-pointer input-group-addon">
+                            <button class="text-white search-form_submit fas fa-search" type="submit"></button>
+                        </span>
+                        <input type="text" class="search-form_input form-control" name="s" autocomplete="off"
+                            placeholder="Type & hit enter...">
+                        <span class="mt-1 input-group-addon close-search"><i class="fas fa-times"></i></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- end top search -->
+
+        <div class="container-fluid px-sm-2-9">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-12">
+                    <div class="menu_area alt-font">
+                        <nav class="p-0 navbar navbar-expand-lg navbar-light">
+
+                            <div class="navbar-header navbar-header-custom">
+                                <!-- start logo -->
+                                <a href="#" class="navbar-brand"><img id="logo" src="{{ asset('assets/img/logos/logo-inner.png') }}"
+                                        alt="logo"></a>
+                                <!-- end logo -->
+                            </div>
+
+                            <div class="navbar-toggler"></div>
+                            @if (Route::current()->getName()=="home")
+
+                            @else
+                            <!-- menu area -->
+                            <ul class="navbar-nav align-items-lg-center ms-auto" id="nav" style="display: none;">
+                                <li><a href="#!">Home</a></li>
+                                <li><a href="#!">Pages</a></li>
+                                <li><a href="#!">Services</a></li>
+                                <li><a href="#!">Portfolio</a></li>
+                                <li><a href="#!">Elements</a></li>
+                                <li><a href="#!">Blog</a></li>
+                            </ul>
+                            <!-- end menu area -->
+                            @endif
+                            <!-- start attribute navigation -->
+                            <div class="attr-nav align-items-lg-center ms-lg-auto">
+                                <ul>
+                                    <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li>
+                                    <li class="d-none d-xl-inline-block"><a href="tel:+1123456789"
+                                            class="text-white shadow-none butn secondary medium">+1 123 456 789</a></li>
+                                </ul>
+                            </div>
+                            <!-- end attribute navigation -->
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
