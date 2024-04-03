@@ -31,19 +31,28 @@
             <div class="container">
                 <div class="about-inner border-radius-10">
                     <div class="row g-0">
-                        <div class="col-md-6">
-                            <div class="py-5 overflow-hidden bg-dark px-1-9 px-lg-8 rounded-top-left rounded-top-sm-right position-relative h-100">
+                        <div class="col-md-4">
+                            <div class="py-5 overflow-hidden bg-secondary px-1-9 px-lg-8 position-relative rounded-top-left rounded-top-sm-right h-100">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="mb-0 text-white h4 pe-5"><a href="">Santé</a></h3>
+                                    <h3 class="mb-0 text-white h4 pe-5"><a href="">Transport</a></h3>
+                                    <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
+                                    <i class="text-white icon-hotairballoon opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="py-5 overflow-hidden bg-dark px-1-9 px-lg-8 rounded-top-sm-right position-relative h-100">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0 text-white h4 pe-5"><a href="">Douanes</a></h3>
                                     <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
                                     <i class="text-white icon-genius fas fa-search opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="py-5 overflow-hidden bg-secondary px-1-9 px-lg-8 position-relative rounded-top-md-right h-100">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <h3 class="mb-0 text-white h4 pe-5"><a href="">Transport</a></h3>
+                                    <h3 class="mb-0 text-white h4 pe-5"><a href="">Santé</a></h3>
                                     <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
                                     <i class="text-white icon-hotairballoon opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
                                 </div>
@@ -56,7 +65,7 @@
                                 <div class="pe-xl-5">
                                     <div class="title-style2 text-start mb-1-9">
                                         <span class="sub-title">Qui sommes-nous</span>
-                                        <h2 class="mb-0 h1">GLODEMAP;</h2>
+                                        <h2 class="mb-0 h1">GLODEMAP</h2>
                                     </div>
                                     <p>est une entreprise de commerce général évoluant dans les secteurs des :</p>
                                     <ul class="mb-0 list-style1">
