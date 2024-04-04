@@ -98,7 +98,7 @@
     opacity: 0; } }
 /* theme color and basic options */
 a:hover, a:active {
-  color: #2A334E;
+  color: #F67E22;
   text-decoration: none; }
 
 .bg-primary {
@@ -798,21 +798,21 @@ a:hover, a:active {
 
 /* menu area light */
 .navbar-nav li.current > a, .navbar-nav li.active > a {
-  color: #2A334E; }
+  color: #F67E22; }
 
 .navbar > ul > li.current > a:after {
   border-color: transparent #2A334E #2A334E transparent; }
 
 .menu_area-light .navbar-nav li.current > a, .menu_area-light .navbar-nav li.active > a {
-  color: #2A334E; }
+  color: #F67E22; }
 .menu_area-light .navbar > ul > li.current > a:after {
   border-color: transparent #2A334E #2A334E transparent; }
 .menu_area-light.scrollHeader .navbar-nav li.current > a {
-  color: #2A334E; }
+  color: #F67E22; }
   .menu_area-light.scrollHeader .navbar-nav li.current > a:hover {
     color: #2A334E; }
 .menu_area-light.scrollHeader .navbar-nav li.active > a {
-  color: #2A334E; }
+  color: #F67E22; }
 .menu_area-light.scrollHeader .navbar > ul > li.current > a:after {
   border-color: transparent #2A334E #2A334E transparent; }
 

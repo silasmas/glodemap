@@ -1,4 +1,4 @@
-@extends("layouts.template")
+@extends("layouts.template",['titre'=>'Accueil'])
 
 
 @section("content")
@@ -11,14 +11,14 @@
                 <div class="pt-6 text-center row align-items-center justify-content-center min-vh-100 pt-md-0">
                     <div class="pt-6 pb-12 col-lg-7 mb-1-9 mb-lg-0 py-sm-6">
                         <div class="mb-2 title-style2">
-                            <span class="sub-title">Corporate Services Solutions</span>
+                            <span class="sub-title">GLODEMAP</span>
                         </div>
-                        <h1 class="mb-4 text-white display-18 display-sm-14 display-md-11 display-xl-5">With Croaxa You'll Have No More Worries!</h1>
+                        <h1 class="mb-4 text-white display-18 display-sm-14 display-md-11 display-xl-5">Une solution d'entreprise en RDC</h1>
                         <div class="mt-2-6">
                             <div class="align-middle d-inline-block">
-                                <a class="video_btn-style1 popup-social-video video_btn small" href="https://www.youtube.com/watch?v=CiBu9_lkysA"><i class="fas fa-play"></i></a>
+                                <a class="video_btn-style1 popup-social-video video_btn small" href="https://www.youtube.com/watch?v=iGC5W-0grMs"><i class="fas fa-play"></i></a>
                             </div>
-                            <div class="text-white align-middle d-none d-sm-inline-block font-weight-700 ms-4 text-start">Watch <span class="text-uppercase d-block">intro video</span></div>
+                            <div class="text-white align-middle d-none d-sm-inline-block font-weight-700 ms-4 text-start">Regarder<span class="text-uppercase d-block">la vidéo introductive</span></div>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                             <div class="py-5 overflow-hidden bg-secondary px-1-9 px-lg-8 position-relative rounded-top-left rounded-top-sm-right h-100">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h3 class="mb-0 text-white h4 pe-5"><a href="">Transport</a></h3>
-                                    <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
-                                    <i class="text-white icon-hotairballoon opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
+                                    <a href="{{ route('detailService',['id'=>"1"]) }}" class="text-white display-19 lh-1">&#10230;</a>
+                                    <i class="text-white bi bi-car-front opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@
                             <div class="py-5 overflow-hidden bg-dark px-1-9 px-lg-8 rounded-top-sm-right position-relative h-100">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h3 class="mb-0 text-white h4 pe-5"><a href="">Douanes</a></h3>
-                                    <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
-                                    <i class="text-white icon-genius fas fa-search opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
+                                    <a href="{{ route('detailService',['id'=>"2"]) }}" class="text-white display-19 lh-1">&#10230;</a>
+                                    <i class="text-white bi bi-shield-check opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
                                 </div>
                             </div>
                         </div>
@@ -53,8 +53,8 @@
                             <div class="py-5 overflow-hidden bg-secondary px-1-9 px-lg-8 position-relative rounded-top-md-right h-100">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h3 class="mb-0 text-white h4 pe-5"><a href="">Santé</a></h3>
-                                    <a href="#!" class="text-white display-19 lh-1">&#10230;</a>
-                                    <i class="text-white icon-hotairballoon opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
+                                    <a href="{{ route('detailService',['id'=>"3"]) }}" class="text-white display-19 lh-1">&#10230;</a>
+                                    <i class="text-white bi bi-hospital opacity3 display-1 position-absolute lh-1 left-n5 bottom-n10"></i>
                                 </div>
                             </div>
                         </div>
@@ -165,44 +165,46 @@
                     <h2 class="mb-0 h1">Nous sommes là pour vous servir</h2>
                 </div>
                 <div class="row mt-n1-9">
-                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="100ms">
-                        <div class="bg-transparent border-0 card card-style3">
-                            <div class="p-0 bg-transparent card-body">
-                                <div class="card-front">
-                                    <i class="mb-4 icon-strategy text-secondary display-14"></i>
-                                    <h3 class="mb-3 h4">Médical</h3>
-                                    <p class="mb-0">Nous avons un centre hospitalier  qui fait la fierté du coin avec des services impeccables.</p>
-                                </div>
-                                <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-01.jpg') }}">
-                                    <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="300ms">
                         <div class="bg-transparent border-0 card card-style3">
                             <div class="p-0 bg-transparent card-body">
                                 <div class="card-front">
-                                    <i class="mb-4 icon-bargraph text-secondary display-14"></i>
+                                    <i class="mb-4 bi bi-car-front text-secondary display-14"></i>
                                     <h3 class="mb-3 h4">Transport</h3>
                                     <p class="mb-0">Un charroi de transport rapide et bien organisé .</p>
                                 </div>
                                 <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-02.jpg') }}">
-                                    <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
+                                    <div class="card-butn"><a href="{{ route('detailService',['id'=>"1"]) }}" class="butn md">Voir plus</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="100ms">
+                        <div class="bg-transparent border-0 card card-style3">
+                            <div class="p-0 bg-transparent card-body">
+                                <div class="card-front">
+                                    <i class="mb-4 bi bi-hospital text-secondary display-14"></i>
+                                    <h3 class="mb-3 h4">Médical</h3>
+                                    <p class="mb-0">Nous avons un centre hospitalier  qui fait la fierté du coin avec des services impeccables.</p>
+
+                                </div>
+                                <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-01.jpg') }}">
+                                    <div class="card-butn"><a href="{{ route('detailService',['id'=>"2"]) }}" class="butn md">Voir plus</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="500ms">
                         <div class="bg-transparent border-0 card card-style3">
                             <div class="p-0 bg-transparent card-body">
                                 <div class="card-front">
-                                    <i class="mb-4 icon-document text-secondary display-14"></i>
+                                    <i class="mb-4 bi bi-shield-check text-secondary display-14"></i>
                                     <h3 class="mb-3 h4">Douanes</h3>
                                     <p class="mb-0">Nous faisons le dédouanement des marchandises en importation et en exportation.</p>
                                 </div>
                                 <div class="card-back bg-img cover-background" data-background="{{ asset('assets/img/content/service-03.jpg') }}">
-                                    <div class="card-butn"><a href="#" class="butn md">Voir en detail</a></div>
+                                    <div class="card-butn"><a href="{{ route('detailService',['id'=>"3"]) }}" class="butn md">Voir plus</a></div>
                                 </div>
                             </div>
                         </div>
@@ -252,8 +254,8 @@
                     </div> --}}
                 </div>
             </div>
-            <img src="img/bg/bg-shape6.png" class="position-absolute right-n5 top-n5 opacity5 ani-left-right d-none d-lg-block" alt="...">
-            <img src="img/bg/bg-shape7.png" class="position-absolute left-n5 bottom-n5 opacity5 ani-left-right d-none d-lg-block" alt="...">
+            <img src="{{ asset('assets/img/bg/bg-shape6.png') }}" class="position-absolute right-n5 top-n5 opacity5 ani-left-right d-none d-lg-block" alt="...">
+            <img src="{{ asset('assets/img/bg/bg-shape7.png') }}" class="position-absolute left-n5 bottom-n5 opacity5 ani-left-right d-none d-lg-block" alt="...">
         </section>
 
         <!-- BECOME A CLIENT
@@ -326,26 +328,6 @@
                                             </div>
                                         </div>
                                         <!-- End Textarea element -->
-
-                                        <!-- Begin Captcha element -->
-                                        {{-- <div class="col-md-12">
-                                            <div class="quform-element">
-                                                <div class="form-group">
-                                                    <div class="quform-input">
-                                                        <input class="form-control" id="type_the_word" type="text" name="type_the_word" placeholder="Type the below word" />
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="quform-captcha">
-                                                        <div class="quform-captcha-inner">
-                                                            <img src="{{ asset('assets/quform/images/captcha/courier-new-light.png') }}" alt="...">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div> --}}
-                                        <!-- End Captcha element -->
-
                                         <!-- Begin Submit button -->
                                         <div class="col-md-12">
                                             <div class="quform-submit-inner">
@@ -368,192 +350,15 @@
 
         <!-- CLIENTS
         ================================================== -->
-        <section class="py-5 bg-secondary mx-lg-6 border-radius-lg-10 wow fadeIn" data-wow-delay="100ms">
-            <div class="container-fluid px-md-14">
-                <div class="text-center owl-carousel owl-theme clients-style3">
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/01.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/09.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/02.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/10.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/03.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/11.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/04.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/12.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/05.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/13.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/06.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/14.png') }}" alt="...">
-                    </div>
-                    <div class="image-wrapper">
-                        <img class="hover-image" src="{{ asset('assets/img/partner/07.png') }}" alt="...">
-                        <img class="main-image" src="{{ asset('assets/img/partner/15.png') }}" alt="...">
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- TEAM
+
+    @include("parties.client")
+    @include("parties.team")
+
+    <!-- TESTIMONIAL
         ================================================== -->
-        <section>
-            <div class="container">
-                <div class="text-center title-style2 mb-2-9 mb-lg-6 wow fadeIn" data-wow-delay="100ms">
-                    {{-- <span class="sub-title">we make connections</span> --}}
-                    <h2 class="mb-0 h1">Notre equipe</h2>
-                </div>
-                <div class="row mt-n1-9">
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="200ms">
-                        <div class="team-style2">
-                            <div class="team-image">
-                                <img src="{{ asset('assets/img/team/01.jpg') }}" class="rounded-top-lg" alt="...">
-                            </div>
-                            <div class="team-content">
-                                <div class="team-social-icon">
-                                    <span class="team-icon fa fa-share-alt"></span>
-                                    <a href="#!" class="team-icon fab fa-twitter"></a>
-                                    <a href="#!" class="team-icon fab fa-facebook-f"></a>
-                                    <a href="#!" class="team-icon fab fa-linkedin-in"></a>
-                                    <a href="#!" class="team-icon fab fa-instagram"></a>
-                                </div>
-                                <h3 class="pt-4 mb-1 h5"><a href="team-single.html">Angelina May</a></h3>
-                                <p class="mb-0 small">CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="400ms">
-                        <div class="team-style2">
-                            <div class="team-image">
-                                <img src="{{ asset('assets/img/team/02.jpg') }}" class="rounded-top-lg" alt="...">
-                            </div>
-                            <div class="team-content">
-                                <div class="team-social-icon">
-                                    <span class="team-icon fa fa-share-alt"></span>
-                                    <a href="#!" class="team-icon fab fa-twitter"></a>
-                                    <a href="#!" class="team-icon fab fa-facebook-f"></a>
-                                    <a href="#!" class="team-icon fab fa-linkedin-in"></a>
-                                    <a href="#!" class="team-icon fab fa-instagram"></a>
-                                </div>
-                                <h3 class="pt-4 mb-1 h5"><a href="team-single.html">James Mott</a></h3>
-                                <p class="mb-0 small">Chief Executive</p>
-                            </div>
-                        </div>
+        @include("parties.temoignage")
 
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="600ms">
-                        <div class="team-style2">
-                            <div class="team-image">
-                                <img src="{{ asset('assets/img/team/03.jpg') }}" class="rounded-top-lg" alt="...">
-                            </div>
-                            <div class="team-content">
-                                <div class="team-social-icon">
-                                    <span class="team-icon fa fa-share-alt"></span>
-                                    <a href="#!" class="team-icon fab fa-twitter"></a>
-                                    <a href="#!" class="team-icon fab fa-facebook-f"></a>
-                                    <a href="#!" class="team-icon fab fa-linkedin-in"></a>
-                                    <a href="#!" class="team-icon fab fa-instagram"></a>
-                                </div>
-                                <h3 class="pt-4 mb-1 h5"><a href="team-single.html">Nancy Burciaga</a></h3>
-                                <p class="mb-0 small">Manager</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mt-1-9 wow fadeIn" data-wow-delay="800ms">
-                        <div class="team-style2">
-                            <div class="team-image">
-                                <img src="{{ asset('assets/img/team/04.jpg') }}" class="rounded-top-lg" alt="...">
-                            </div>
-                            <div class="team-content">
-                                <div class="team-social-icon">
-                                    <span class="team-icon fa fa-share-alt"></span>
-                                    <a href="#!" class="team-icon fab fa-twitter"></a>
-                                    <a href="#!" class="team-icon fab fa-facebook-f"></a>
-                                    <a href="#!" class="team-icon fab fa-linkedin-in"></a>
-                                    <a href="#!" class="team-icon fab fa-instagram"></a>
-                                </div>
-                                <h3 class="pt-4 mb-1 h5"><a href="team-single.html">Clarence Lewis</a></h3>
-                                <p class="mb-0 small">Chief Financial</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- TESTIMONIAL
-        ================================================== -->
-        <section class="bg-dark border-radius-lg-10 mx-lg-6">
-            <div class="container-fluid">
-                <div class="text-center title-style2 mb-2-2 mb-lg-2-6 wow fadeIn" data-wow-delay="100ms">
-                    <span class="sub-title white">Témoignage</span>
-                    <h2 class="mb-0 text-white h1">Ce que disent nos clients</h2>
-                </div>
-
-                <div class="testimonial-style4 owl-carousel owl-theme wow fadeIn" data-wow-delay="200ms">
-                    <div class="dark-shadow p-2-4 m-1-6">
-                        <i class="mb-4 bg-white ti-quote-right text-secondary display-18 d-inline-block"></i>
-                        <p class="text-white mb-2-2 mb-sm-5">I don't know what else to say. I would gladly pay over 600 dollars for business. Keep up the excellent work. It's incredible. It's the perfect solution for our business.</p>
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <img src="img/avatar/avatar-06.jpg" class="rounded-circle" alt="">
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h6 class="mb-0 text-white">Jose Matsuda <small class="pt-2 text-secondary d-block">Mystery Shopper</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dark-shadow p-2-4 m-1-6">
-                        <i class="mb-4 bg-white ti-quote-right text-secondary display-18 d-inline-block"></i>
-                        <p class="text-white mb-2-2 mb-sm-5">I am really satisfied with my business. Your company is truly upstanding and is behind its product 100%. Thank you for making it painless, pleasant and most of all hassle free!</p>
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <img src="img/avatar/avatar-07.jpg" class="rounded-circle" alt="">
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h6 class="mb-0 text-white">Allena Jones <small class="pt-2 text-secondary d-block">Real Estate Assessor</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dark-shadow p-2-4 m-1-6">
-                        <i class="mb-4 bg-white ti-quote-right text-secondary display-18 d-inline-block"></i>
-                        <p class="text-white mb-2-2 mb-sm-5">Thanks to business, we've just launched our 5th website! Thank you so much for your help. I don't always clop, but when I do, it's because of business. I'd also like to thank you so much.</p>
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <img src="img/avatar/avatar-08.jpg" class="rounded-circle" alt="">
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h6 class="mb-0 text-white">Gregi Ambrose <small class="pt-2 text-secondary d-block">Languages Researcher</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dark-shadow p-2-4 m-1-6">
-                        <i class="mb-4 bg-white ti-quote-right text-secondary display-18 d-inline-block"></i>
-                        <p class="text-white mb-2-2 mb-sm-5">Thanks to business, we've just launched our 5th website! I could probably go into sales for you. Business is exactly what our business has been lacking. Thank you all guys!</p>
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <img src="img/avatar/avatar-05.jpg" class="rounded-circle" alt="">
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <h6 class="mb-0 text-white">Jevins mondio <small class="pt-2 text-secondary d-block">Developer</small></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="img/bg/bg-shape9.png" class="position-absolute top-n5 opacity3 right-n5 ani-left-right d-none d-lg-block" alt="...">
-
-            </div>
-        </section>
 
         <!-- BLOG
         ================================================== -->

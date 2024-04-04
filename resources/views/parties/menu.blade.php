@@ -33,9 +33,14 @@
                             </div>
 
                             <div class="navbar-toggler"></div>
-                            @if (Route::current()->getName()=="home")
-
-                            @else
+                            {{-- @if (Route::current()->getName()=="home") --}}
+                            <ul class="navbar-nav align-items-lg-center ms-auto" id="nav" style="display: none;">
+                                <li class="{{ Route::current()->getName()=="home"?"active":"" }}"><a href="{{ route('home') }}">Accueil</a></li>
+                                <li class="{{ Route::current()->getName()=="about"?"active":"" }}"><a href="{{ route('about') }}">Qui sommes-nous</a></li>
+                                <li class="{{ Route::current()->getName()=="services"?"active":"" }}"><a href="{{ route('services') }}">Nos services</a></li>
+                                <li class="{{ Route::current()->getName()=="contact"?"active":"" }}"><a href="{{ route('contact') }}">Contact</a></li>
+                            </ul>
+                            {{-- @else
                             <!-- menu area -->
                             <ul class="navbar-nav align-items-lg-center ms-auto" id="nav" style="display: none;">
                                 <li><a href="#!">Home</a></li>
@@ -46,7 +51,7 @@
                                 <li><a href="#!">Blog</a></li>
                             </ul>
                             <!-- end menu area -->
-                            @endif
+                            @endif --}}
                             <!-- start attribute navigation -->
                             <div class="attr-nav align-items-lg-center ms-lg-auto">
                                 <ul>

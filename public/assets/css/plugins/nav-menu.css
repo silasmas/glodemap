@@ -6,7 +6,7 @@
     Version: 2.0
 
 -----------------------------------------------------------------------------------*/
-    
+
 /* ===================================
 	Default Header style
 ====================================== */
@@ -136,7 +136,7 @@ header{ transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
 	.header-style2 .navbar-nav li a { color: #6f6f6f; }
 	.header-style2 .navbar-nav > li > a { color: #282b2d; }
 	.header-style2 .navbar-nav li > ul { background: #fff; }
-	.header-style2 .navbar ul ul li.active > a { color: #282b2d; }
+	.header-style2 .navbar ul ul li.active > a { color: #F67E22; }
 	.header-style2 .navbar-nav li.has-sub a:hover{ color: #282b2d; }
 	.header-style2 .navbar-nav li.current > a{ color: #4e86ff; }
 	.header-style2 .navbar .sub-title { color: #282b2d; }
@@ -151,14 +151,14 @@ header{ transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
 	.header-style2.scrollHeader .navbar-nav li.current > a{ color: #4e86ff; }
 	.header-style2.scrollHeader .navbar-nav li.current > a:hover{ color: #4e86ff; }
 	.header-style2.scrollHeader .navbar > ul > li.current > a:after{ border-color: transparent #4e86ff #4e86ff transparent; }
-	
+
 	/* ===================================
 		Menu area light
 	====================================== */
 	.menu_area-light .navbar-nav li a { color: #6f6f6f; }
 	.menu_area-light .navbar-nav > li > a { color: #fff; }
 	.menu_area-light .navbar-nav li > ul { background: #fff; }
-	.menu_area-light .navbar ul ul li.active > a { color: #282b2d; }
+	.menu_area-light .navbar ul ul li.active > a { color: #F67E22; }
 	.menu_area-light .navbar-nav li.has-sub a:hover{ color: #282b2d; }
 	.menu_area-light .navbar-nav li.current > a{ color: #4e86ff; }
 	.menu_area-light .navbar .sub-title { color: #282b2d; }
@@ -172,19 +172,19 @@ header{ transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
 	.menu_area-light.scrollHeader .navbar > ul > li.has-sub > a:after { border-color: transparent #282b2d #282b2d transparent; }
 	.menu_area-light.scrollHeader .navbar-nav li.current > a{ color: #4e86ff; }
 	.menu_area-light.scrollHeader .navbar-nav li.current > a:hover{ color: #4e86ff; }
-	.menu_area-light.scrollHeader .navbar > ul > li.current > a:after{ border-color: transparent #4e86ff #4e86ff transparent; }	
+	.menu_area-light.scrollHeader .navbar > ul > li.current > a:after{ border-color: transparent #4e86ff #4e86ff transparent; }
 
 }
 
-@media screen and (max-width: 1199px){ 
+@media screen and (max-width: 1199px){
  	.navbar-nav > li{ margin-left: 5px; }
 }
 
-@media screen and (max-width: 991px){ 
+@media screen and (max-width: 991px){
 
 	/* ===================================
 		Default Header style
-	====================================== */	
+	====================================== */
 
 	.navbar-header-custom{ padding: 4px 0 8px;  }
 	.menu_area .navbar-brand{ margin-top: 6px;  }
@@ -196,7 +196,7 @@ header{ transition: all 0.5s ease 0s; position: relative; z-index: 99999; }
 	.navbar-nav > li > a{ padding: 14px 20px; color: #282b2d; font-size: 15px; font-weight: 500; }
 	.navbar-nav > li > a:hover{ opacity: 1;  }
 	.navbar-nav li.has-sub a:hover{ color: #282b2d;  }
-	.navbar ul ul li.active > a{ color: #000;  }
+	.navbar ul ul li.active > a{ color: #F67E22;  }
 	.navbar .sub-title { color: #282b2d; }
 
 	.navbar-nav{ background: #fff; -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); position: absolute; top: 71px; left: 0; width: 100%; transition-duration: 0; -ms-transition-duration: 0; -moz-transition-duration: 0; -webkit-transition-duration: 0; -o-transition-duration: 0; width: 100%; display: none; transition: none; -ms-transition: none; -moz-transition: none; -webkit-transition: none; -o-transition: none;  }

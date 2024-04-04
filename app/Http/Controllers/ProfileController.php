@@ -20,6 +20,10 @@ class ProfileController extends Controller
             'user' => $request->user(),
         ]);
     }
+    public function detail($id): View
+    {
+        return view('pages.detailservice');
+    }
 
     /**
      * Update the user's profile information.
