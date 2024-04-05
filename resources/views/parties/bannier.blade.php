@@ -1,4 +1,4 @@
-<section class="page-title-section2 top-position1 bg-img cover-background text-start" data-overlay-dark="7" data-background="assets/img/bg/bg-page-title-02.jpg">
+<section class="page-title-section2 top-position1 bg-img cover-background text-start" data-overlay-dark="7" data-background="{{ asset('assets/img/bg/bg-page-title-02.jpg') }}">
     <div class="container">
 
         <div class="row align-items-center justify-content-between">

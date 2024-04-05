@@ -22,7 +22,8 @@ class ProfileController extends Controller
     }
     public function detail($id): View
     {
-        return view('pages.detailservice');
+        $i = $id;
+        return view('pages.detailservice', compact('i'));
     }
 
     /**
