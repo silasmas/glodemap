@@ -311,7 +311,7 @@
                             </div>
                             @endforeach
                     @endif
-                    @if (isset(session()->get('msg')))
+                    @if (session()->has('msg'))
                     <div class="alert alert-success alert-dismissible">
                         <strong>Message : </strong> {{ session()->get('msg') }}
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
