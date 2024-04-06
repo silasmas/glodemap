@@ -30,6 +30,6 @@ class message extends Mailable
     }
     public function build()
     {
-        return $this->markdown('emails.msg')->subject("Nouveau message sur le site" . $this->objet);
+        return $this->markdown('emails.msg')->subject("Nouveau message sur le site");
     }
 }

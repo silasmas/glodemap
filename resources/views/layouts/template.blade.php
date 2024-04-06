@@ -144,7 +144,7 @@
     <script src="{{ asset('assets/quform/js/plugins.js') }} "></script>
 
     <!-- form scripts js -->
-    <script src="{{ asset('assets/quform/js/scripts.js') }} "></script>
+    {{-- <script src="{{ asset('assets/quform/js/scripts.js') }} "></script> --}}
 
     <!-- all js include end -->
 

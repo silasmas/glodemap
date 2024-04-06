@@ -17,6 +17,23 @@
                 </form>
             </div>
         </div>
+        @if (session()->has('msg'))
+        <div class="alert alert-success alert-dismissible">
+            <strong>Message : </strong> {{ session()->get('msg') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
+        @if ($errors->any())
+        @foreach ($errors->all() as $error)
+        <div class="alert alert-danger alert-dismissible">
+            <ul>
+                <strong>Erreur!</strong>
+                <li>{{ $error }}</li>
+            </ul>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endforeach
+        @endif
         <!-- end top search -->
 
         <div class="container-fluid px-sm-2-9">
@@ -27,18 +44,23 @@
 
                             <div class="navbar-header navbar-header-custom">
                                 <!-- start logo -->
-                                <a href="{{ route('home') }}" class="navbar-brand"><img id="logo" src="{{asset('assets/img/logos/logo-inner.png') }}"
-                                        alt="logo"></a>
+                                <a href="{{ route('home') }}" class="navbar-brand"><img id="logo"
+                                        src="{{asset('assets/img/logos/logo-inner.png') }}" alt="logo"></a>
                                 <!-- end logo -->
                             </div>
 
                             <div class="navbar-toggler"></div>
                             {{-- @if (Route::current()->getName()=="home") --}}
                             <ul class="navbar-nav align-items-lg-center ms-auto" id="nav" style="display: none;">
-                                <li class="{{ Route::current()->getName()=="home"?"active":"" }}"><a href="{{ route('home') }}">Accueil</a></li>
-                                <li class="{{ Route::current()->getName()=="about"?"active":"" }}"><a href="{{ route('about') }}">Qui sommes-nous</a></li>
-                                <li class="{{ Route::current()->getName()=="services"?"active":"" }}{{ Route::current()->getName()=="detailService"?"active":"" }}"><a href="{{ route('services') }}">Nos services</a></li>
-                                <li class="{{ Route::current()->getName()=="contact"?"active":"" }}"><a href="{{ route('contact') }}">Contact</a></li>
+                                <li class="{{ Route::current()->getName()==" home"?"active":"" }}"><a
+                                        href="{{ route('home') }}">Accueil</a></li>
+                                <li class="{{ Route::current()->getName()==" about"?"active":"" }}"><a
+                                        href="{{ route('about') }}">Qui sommes-nous</a></li>
+                                <li class="{{ Route::current()->getName()==" services"?"active":"" }}{{
+                                    Route::current()->getName()=="detailService"?"active":"" }}"><a
+                                        href="{{ route('services') }}">Nos services</a></li>
+                                <li class="{{ Route::current()->getName()==" contact"?"active":"" }}"><a
+                                        href="{{ route('contact') }}">Contact</a></li>
                             </ul>
 
                             <!-- start attribute navigation -->

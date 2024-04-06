@@ -31,6 +31,15 @@ class ProfileController extends Controller
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
             'message' => ['required', 'string', 'max:255'],
         ]);
+        // $valid = Validator::make($request->all(), [
+        //     'nom' => ['required', 'string', 'max:255'],
+        //     'objet' => ['required', 'string', 'max:255'],
+        //     'phone' => ['required', 'string', 'max:255'],
+        //     'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
+        //     'message' => ['required', 'string', 'max:255'],
+        // ]);
+        // if (!$valid->fails()) {
+        // }
         Mail::to("ir-masimango@silasmas.com")->send(new message($request->email, $request->nom, $request->objet, $request->message, $request->phone));
         return back()->with('msg', "Votre message est envoyer avec succès!");
     }
