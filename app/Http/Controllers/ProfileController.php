@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
+use App\Mail\message;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 
@@ -19,6 +21,18 @@ class ProfileController extends Controller
         return view('profile.edit', [
             'user' => $request->user(),
         ]);
+    }
+    public function sendMessage(Request $request)
+    {
+        $request->validate([
+            'nom' => ['required', 'string', 'max:255'],
+            'objet' => ['required', 'string', 'max:255'],
+            'phone' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
+            'message' => ['required', 'string', 'max:255'],
+        ]);
+        Mail::to("ir-masimango@silasmas.com")->send(new message($request->email, $request->nom, $request->objet, $request->message, $request->phone));
+        return back()->with('msg', "Votre message est envoyer avec succès!");
     }
     public function detail($id): View
     {

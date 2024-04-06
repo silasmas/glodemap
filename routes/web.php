@@ -24,6 +24,7 @@ Route::get('services', function () {
     return view('pages.services');
 })->name('services');
 Route::get('detailService/{id}', [ProfileController::class, 'detail'])->name('detailService');
+Route::post('sendMsg', [ProfileController::class, 'sendMessage'])->name('sendMsg');
 Route::get('contact', function () {
     return view('pages.contact');
 })->name('contact');
