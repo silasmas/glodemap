@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="">
-    <meta name="description" content="{{ config('app.name') }} est un portail numérique pour avoir accès aux services de transport et medical de {{ config('app.name') }}">
+    <meta name="description" content="{{ config('app.name') }} est un portail numérique pour avoir accès aux services de transport,de douane et medical de {{ config('app.name') }}">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">

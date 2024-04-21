@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
 use App\Mail\message;
+use GuzzleHttp\Client;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 use Illuminate\View\View;
 
 class ProfileController extends Controller
@@ -45,8 +47,41 @@ class ProfileController extends Controller
     }
     public function detail($id): View
     {
+        $json_url = asset('/assets/js/services.json');
+        $client = new Client();
+
+        $response = $client->request('GET', $json_url, [
+            'headers' => [
+                'Accept' => 'application/json',
+            ],
+            'verify' => false,
+        ]);
+        $json_result = json_decode($response->getBody(), false);
         $i = $id;
-        return view('pages.detailservice', compact('i'));
+        $banniere = "";
+        $img1 = "";
+        $contenu = "";
+        switch ($i) {
+            case ("1"):
+                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
+                $contenu = $json_result->transport;
+                break;
+            case ("2"):
+                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
+                $contenu = $json_result->douane;
+                break;
+            case ("3"):
+                $img1 = asset('assets/img/sante/banniere.JPG');
+                $banniere = asset('assets/img/sante/baniere.JPG');
+                $contenu = $json_result->sante;
+                break;
+
+            default:
+                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
+                break;
+
+        }
+        return view('pages.detailservice', compact('i', "banniere", 'contenu'));
     }
 
     /**

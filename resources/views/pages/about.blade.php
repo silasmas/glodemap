@@ -22,10 +22,21 @@
                         <span class="sub-title">Parlons de nous</span>
                     </div>
                     <h2 class="h1 mb-1-9 fw-bold">GLODEMAP</h2>
-                    <p class="mb-1-9">The groups serve every single significant segment. of the business. Our work draw on over 25+ years of experience, conveyed by 5,800 experts on the planet's most significant monetary focuses.</p>
-                    <div class="mb-1-9">
+                    <p class="mb-1-9">
+                        GLODEMAP est une société de droit congolais existant depuis 2017.
+                         La société intègre des pratiques durables dans ses opérations et des valeurs
+                         contribuant ainsi positivement aux activités de ses partenaires.
+                         GLODEMAP propose 3 services : l'agence de douane, le transport,
+                          ainsi que la santé, et compte plus de 150 agents. Basée à Kinshasa,
+                          GLODEMAP possède différents bureaux en RD Congo, notamment à Matadi, Kimpese,
+                          Lufu, ainsi qu'à Pointe-Noire au Congo Brazzaville, et à Luanda en Angola.
+                          Nous plaçons les besoins et les désirs des clients au cœur des décisions
+                           commerciales garantit la satisfaction de la clientèle et favorise la fidélité
+                           à long terme.
+                    </p>
+                    {{-- <div class="mb-1-9">
                         <span>Call us 24/7. We can answer for <strong class="lead font-weight-600">all your questions.</strong></span>
-                    </div>
+                    </div> --}}
                     <div class="border-bottom mb-1-9 pb-1-9">
                         <h5 class="d-inline-block h6 me-4 mb-0">(+243) 898552773</h5>
                         <div class="d-inline-block me-4 align-top"><strong class="font-weight-700 text-primary">ou</strong></div>

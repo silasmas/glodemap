@@ -9,7 +9,8 @@
                 <div class="pe-lg-4 pe-xl-5">
                     @include("parties.menulateral")
 
-                    <div class="widget text-center wow fadeInUp" data-wow-delay="200ms">
+
+                    {{-- <div class="widget text-center wow fadeInUp" data-wow-delay="200ms">
                         <div class="testimonial-style3 owl-carousel owl-theme">
                             <div>
                                 <i class="ti-quote-left display-10 text-secondary mb-4 d-block"></i>
@@ -51,13 +52,13 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="widget wow fadeInUp" data-wow-delay="200ms">
-                        <h4 class="h5 mb-1-6">Downloads</h4>
+                        <h4 class="h5 mb-1-6">Télécharger</h4>
                         <ul class="downloads m-0 p-0">
-                            <li><a href="#!"><i class="far fa-file-pdf"></i><span class="label font-weight-600">Company Profile</span></a></li>
-                            <li><a href="#!"><i class="far fa-file-pdf"></i><span class="label font-weight-600">Our Case Study</span></a></li>
+                            <li><a href="#!"><i class="far fa-file-pdf"></i><span class="label font-weight-600">Notre dépliant</span></a></li>
+                            {{-- <li><a href="#!"><i class="far fa-file-pdf"></i><span class="label font-weight-600">Our Case Study</span></a></li> --}}
                         </ul>
                     </div>
 
@@ -77,12 +78,18 @@
             </div>
             <div class="col-lg-8 order-1 order-lg-2 mb-5 mb-lg-0">
 
-                <img src=" {{ asset('assets/img/content/service-details-01.jpg') }}" class="mb-2-9 rounded wow fadeIn" data-wow-delay="100ms" alt="...">
+                <img src=" {{$img1}}" class="mb-2-9 rounded wow fadeIn" data-wow-delay="100ms" alt="...">
 
                 <div class="wow fadeIn" data-wow-delay="200ms">
-                    <h2 class="mb-3">Marketing Research</h2>
-                    <p>Marketing research is the promoting and business measure for making and disseminating significant and important substance to draw in, obtain, and draw in an unmistakably characterized and comprehended objective crowd with the target of driving productive client activity.</p>
-                    <p class="mb-2-9">A promoting procedure of making and disseminating important, applicable and steady substance to pull in and obtain an unmistakably</p>
+                    <h2 class="mb-3">
+
+                    </h2>
+                    <p>
+
+                    </p>
+                    <p class="mb-2-9">
+
+                    </p>
                 </div>
 
                 <div class="row mb-2-9">
@@ -118,7 +125,7 @@
                         <img src="{{ asset('assets/img/content/service-details-04.jpg') }}" class="rounded" alt="...">
                     </div>
                 </div>
-                <div class="wow fadeIn" data-wow-delay="200ms">
+                {{-- <div class="wow fadeIn" data-wow-delay="200ms">
                     <h3 class="mb-4">We provide advance solutions</h3>
                     <div id="accordion" class="accordion-style1">
                         <div class="card">
@@ -164,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
