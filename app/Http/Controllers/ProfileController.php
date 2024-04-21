@@ -81,7 +81,7 @@ class ProfileController extends Controller
                 break;
 
         }
-        return view('pages.detailservice', compact('i', "banniere", 'contenu'));
+        return view('pages.detailservice', compact('i',"img1", "banniere", 'contenu'));
     }
 
     /**
