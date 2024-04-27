@@ -5,8 +5,8 @@
 <!-- BANNER
         ================================================== -->
 <section class="p-0 parallax cover-background top-position1 full-screen dark-overlay" data-overlay-dark="7"
-    data-background="{{ asset('assets/img/banner/banner-09.jpg') }}"
-    style='background-image: url("assets/img/banner/banner-09.jpg"); min-height: 271px;'>
+    data-background="{{ asset('assets/img/sante/home.jpg') }}"
+    style='background-image: url("assets/img/sante/home.jpg"); min-height: 271px;'>
     <div class="container">
         <div class="pt-6 text-center row align-items-center justify-content-center min-vh-100 pt-md-0">
             <div class="pt-6 pb-12 col-lg-7 mb-1-9 mb-lg-0 py-sm-6">
@@ -92,7 +92,7 @@
                     </div>
                     <div class="order-1 col-lg-6 wow fadeIn order-lg-2" data-wow-delay="400ms">
                         <div class="ps-xl-5">
-                            <img src="{{ asset('assets/img/content/about-03.jpg') }}" class="border-radius-10 tilt"
+                            <img src="{{ asset('assets/img/sante/abouthome.jpg') }}" class="border-radius-10 tilt"
                                 alt="...">
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                             <p class="mb-0">Un charroi de transport rapide et bien organisé .</p>
                         </div>
                         <div class="card-back bg-img cover-background"
-                            data-background="{{ asset('assets/img/content/service-02.jpg') }}">
+                            data-background="{{ asset('assets/img/sante/3.jpg') }}">
                             <div class="card-butn"><a href="{{ route('detailService',['id'=>" 1"]) }}"
                                     class="butn md">Voir plus</a></div>
                         </div>
@@ -203,13 +203,13 @@
                     <div class="p-0 bg-transparent card-body">
                         <div class="card-front">
                             <i class="mb-4 bi bi-hospital text-secondary display-14"></i>
-                            <h3 class="mb-3 h4">Médical</h3>
+                            <h3 class="mb-3 h4">Santé</h3>
                             <p class="mb-0">Nous avons un centre hospitalier qui fait la fierté du coin avec des
                                 services impeccables.</p>
 
                         </div>
                         <div class="card-back bg-img cover-background"
-                            data-background="{{ asset('assets/img/content/service-01.jpg') }}">
+                            data-background="{{ asset('assets/img/sante/banniere.JPG') }}">
                             <div class="card-butn"><a href="{{ route('detailService',['id'=>" 2"]) }}"
                                     class="butn md">Voir plus</a></div>
                         </div>
@@ -227,7 +227,7 @@
                                 exportation.</p>
                         </div>
                         <div class="card-back bg-img cover-background"
-                            data-background="{{ asset('assets/img/content/service-03.jpg') }}">
+                            data-background="{{ asset('assets/img/sante/douane.jpg') }}">
                             <div class="card-butn"><a href="{{ route('detailService',['id'=>" 3"]) }}"
                                     class="butn md">Voir plus</a></div>
                         </div>
@@ -404,7 +404,7 @@
 
 
 @include("parties.client")
-@include("parties.team")
+{{-- @include("parties.team") --}}
 
 <!-- TESTIMONIAL
         ================================================== -->

@@ -7,12 +7,12 @@
     <div class="container position-relative z-index-9">
         <div class="title-style2 text-center mb-2-9 mb-lg-6 wow fadeIn" data-wow-delay="100ms">
             <span class="sub-title">Pour quoi nous?</span>
-            <h2 class="mb-0 h1">Notre avantage</h2>
+            <h2 class="mb-0 h1">Nos services</h2>
         </div>
         <div class="row g-xl-5 mt-n1-9">
             <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="400ms">
                 <div class="card card-style6">
-                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/content/service-02.jpg') }}"></div>
+                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/sante/3.jpg') }}"></div>
                     <div class="card-body primary-shadow">
                         <div class="text-stroke-dark text-white display-2 fw-bold mb-3">01</div>
                         <h3 class="mb-3 h4">Transport</h3>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="600ms">
                 <div class="card card-style6">
-                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/content/service-02.jpg') }}"></div>
+                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/sante/douane.jpg') }}"></div>
                     <div class="card-body primary-shadow">
                         <div class="text-stroke-dark text-white display-2 fw-bold mb-3">02</div>
                         <h3 class="mb-3 h4">Douanes</h3>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="200ms">
                 <div class="card card-style6">
-                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/content/service-01.jpg') }}"></div>
+                    <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/sante/banniere.JPG') }}"></div>
                     <div class="card-body primary-shadow">
                         <div class="text-stroke-dark text-white display-2 fw-bold mb-3">03</div>
                         <h3 class="mb-3 h4">Santé</h3>

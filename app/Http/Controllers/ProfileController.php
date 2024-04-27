@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
 use App\Mail\message;
-use GuzzleHttp\Client;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -18,6 +17,30 @@ class ProfileController extends Controller
     /**
      * Display the user's profile form.
      */
+    public function home(): View
+    {
+
+        return view('pages.home');
+    }
+    public function download()
+    {
+        return Redirect::to(asset('assets/doc/chPromedi.pdf'));
+    }
+    public function contact(): View
+    {
+        $banniere = asset('assets/img/sante/ban2.jpg');
+        return view('pages.contact', compact('banniere'));
+    }
+    public function about(): View
+    {
+        $banniere = asset('assets/img/sante/ban2.jpg');
+        return view('pages.about', compact('banniere'));
+    }
+    public function services(): View
+    {
+        $banniere = asset('assets/img/sante/ban2.jpg');
+        return view('pages.services', compact('banniere'));
+    }
     public function edit(Request $request): View
     {
         return view('profile.edit', [
@@ -31,7 +54,7 @@ class ProfileController extends Controller
             'objet' => ['required', 'string', 'max:255'],
             'phone' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
-            'message' => ['required', 'string', 'max:255'],
+            'message' => ['required', 'string'],
         ]);
         // $valid = Validator::make($request->all(), [
         //     'nom' => ['required', 'string', 'max:255'],
@@ -47,41 +70,32 @@ class ProfileController extends Controller
     }
     public function detail($id): View
     {
-        $json_url = asset('/assets/js/services.json');
-        $client = new Client();
 
-        $response = $client->request('GET', $json_url, [
-            'headers' => [
-                'Accept' => 'application/json',
-            ],
-            'verify' => false,
-        ]);
-        $json_result = json_decode($response->getBody(), false);
         $i = $id;
         $banniere = "";
         $img1 = "";
         $contenu = "";
         switch ($i) {
             case ("1"):
-                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
-                $contenu = $json_result->transport;
+                $banniere = asset('assets/img/sante/ban2.jpg');
+                $img1 = asset('assets/img/sante/3.JPG');
                 break;
             case ("2"):
-                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
-                $contenu = $json_result->douane;
+                $banniere = asset('assets/img/sante/ban2.jpg');
+                $img1 = asset('assets/img/sante/douane.JPG');
                 break;
             case ("3"):
                 $img1 = asset('assets/img/sante/banniere.JPG');
                 $banniere = asset('assets/img/sante/baniere.JPG');
-                $contenu = $json_result->sante;
+                // $contenu = $json_result->sante;
                 break;
 
             default:
-                $banniere = asset('assets/img/bg/bg-page-title-02.jpg');
+                $banniere = asset('assets/img/sante/ban2.jpg');
                 break;
 
         }
-        return view('pages.detailservice', compact('i',"img1", "banniere", 'contenu'));
+        return view('pages.detailservice', compact('i', "img1", "banniere", 'contenu'));
     }
 
     /**

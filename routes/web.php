@@ -14,29 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('pages.home');
-})->name('home');
-Route::get('about', function () {
-    return view('pages.about');
-})->name('about');
-Route::get('services', function () {
-    return view('pages.services');
-})->name('services');
+Route::get('/', [ProfileController::class, 'home'])->name('home');
+Route::get('about', [ProfileController::class, 'about'])->name('about');
+Route::get('services', [ProfileController::class, 'services'])->name('services');
+
 Route::get('detailService/{id}', [ProfileController::class, 'detail'])->name('detailService');
 Route::post('sendMsg', [ProfileController::class, 'sendMessage'])->name('sendMsg');
-Route::get('contact', function () {
-    return view('pages.contact');
-})->name('contact');
+Route::get('contact', [ProfileController::class, 'contact'])->name('contact');
+Route::get('/download', [ProfileController::class, 'download'])->name('download');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+// Route::middleware('auth')->group(function () {
+//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+// });
 
 require __DIR__ . '/auth.php';
