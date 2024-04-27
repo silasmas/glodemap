@@ -408,68 +408,11 @@
 
 <!-- TESTIMONIAL
         ================================================== -->
-@include("parties.temoignage")
+{{-- @include("parties.temoignage") --}}
 
 
 <!-- BLOG
         ================================================== -->
-<section>
-    <div class="container">
-        <div class="text-center title-style2 mb-2-9 mb-lg-6 wow fadeIn" data-wow-delay="100ms">
-            {{-- <span class="sub-title">discover the blog</span>
-            <h2 class="mb-0 h1">Read Latest News</h2> --}}
-        </div>
-
-        {{-- <div class="row g-xl-5 mt-n2-9">
-            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="200ms">
-                <article class="bg-transparent border-0 card card-style7 ms-3">
-                    <div class="card-img position-relative">
-                        <img src="img/blog/blog-01.jpg" class="border-radius-10" alt="...">
-                        <a href="#!" class="rounded category">business</a>
-                    </div>
-                    <div class="px-0 pb-0 bg-transparent card-body pt-1-9">
-                        <span class="mb-2 text-secondary d-block font-weight-500"><span
-                                class="ti-calendar small me-2"></span>June 10, 2021</span>
-                        <h3 class="mb-4 h5"><a href="blog-post.html">Five things you need to know about business
-                                today</a></h3>
-                        <a href="blog-post.html" class="font-weight-600">Read More &#10230;</a>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
-                <article class="bg-transparent border-0 card card-style7 ms-3">
-                    <div class="card-img position-relative">
-                        <img src="img/blog/blog-02.jpg" class="border-radius-10" alt="...">
-                        <a href="#!" class="rounded category">consulting</a>
-                    </div>
-                    <div class="px-0 pb-0 bg-transparent card-body pt-1-9">
-                        <span class="mb-2 text-secondary d-block font-weight-500"><span
-                                class="ti-calendar small me-2"></span>June 8, 2021</span>
-                        <h3 class="mb-4 h5"><a href="blog-post.html">Eliminate your fears and doubts about business</a>
-                        </h3>
-                        <a href="blog-post.html" class="font-weight-600">Read More &#10230;</a>
-                    </div>
-                </article>
-            </div>
-
-            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="600ms">
-                <article class="bg-transparent border-0 card card-style7 ms-3">
-                    <div class="card-img position-relative">
-                        <img src="img/blog/blog-03.jpg" class="border-radius-10" alt="...">
-                        <a href="#!" class="rounded category">finance</a>
-                    </div>
-                    <div class="px-0 pb-0 bg-transparent card-body pt-1-9">
-                        <span class="mb-2 text-secondary d-block font-weight-500"><span
-                                class="ti-calendar small me-2"></span>June 6, 2021</span>
-                        <h3 class="mb-4 h5"><a href="blog-post.html">Understanding the background of business</a></h3>
-                        <a href="blog-post.html" class="font-weight-600">Read More &#10230;</a>
-                    </div>
-                </article>
-            </div>
-        </div> --}}
-    </div>
-</section>
 
 
 @endsection
