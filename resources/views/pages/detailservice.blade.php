@@ -18,7 +18,7 @@
 
 @endswitch
 <section class="bg-img cover-background mx-auto z-index-1 mx-auto w-lg-95 w-xxl-85 wow fadeIn mb-5" data-wow-delay="100ms"
-    data-overlay-dark="55" data-background="{{ asset('assets/img/sante/bacvideo.jpg') }}">
+    data-overlay-dark="55" data-background="{{asset('assets/img/sante/bacvideo.jpg')}}">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-9 col-lg-8 col-xl-7 col-xxl-6">

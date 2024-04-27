@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-8 order-1 order-lg-2 mb-5 mb-lg-0">
 
-                <img src=" {{$img1}}" class="mb-2-9 rounded wow fadeIn" data-wow-delay="100ms" alt="...">
+                <img src="{{$img1}}" class="mb-2-9 rounded wow fadeIn" data-wow-delay="100ms" alt="...">
 
                 <div class="wow fadeIn" data-wow-delay="200ms">
                     <h2 class="mb-3">
