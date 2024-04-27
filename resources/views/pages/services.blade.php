@@ -49,7 +49,7 @@
 
 <!-- WHY CHOOSE US
 ================================================== -->
-<section class="bg-img cover-background data-overlay-dark md mx-lg-6 wow fadeIn mb-5" data-wow-delay="200ms" data-overlay-dark="5" data-background="assets/img/bg/bg-04.jpg">
+{{-- <section class="bg-img cover-background data-overlay-dark md mx-lg-6 wow fadeIn mb-5" data-wow-delay="200ms" data-overlay-dark="5" data-background="assets/img/bg/bg-04.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-xxl-5">
@@ -80,7 +80,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 @endsection
