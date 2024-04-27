@@ -78,11 +78,11 @@ class ProfileController extends Controller
         switch ($i) {
             case ("1"):
                 $banniere = asset('assets/img/sante/ban2.jpg');
-                $img1 = asset('assets/img/sante/3.JPG');
+                $img1 = asset('assets/img/sante/3.jpg');
                 break;
             case ("2"):
                 $banniere = asset('assets/img/sante/ban2.jpg');
-                $img1 = asset('assets/img/sante/douane.JPG');
+                $img1 = asset('assets/img/sante/douane.jpg');
                 break;
             case ("3"):
                 $img1 = asset('assets/img/sante/banniere.JPG');
