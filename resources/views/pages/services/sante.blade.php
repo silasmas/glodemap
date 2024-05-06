@@ -110,13 +110,13 @@
 
                 <div class="row mb-2-9 mt-n4">
                     <div class="col-md-4 mt-4 wow fadeInUp" data-wow-delay="200ms">
-                        <img src="{{ asset('assets/img/sante/1.jpg') }}" class="rounded" alt="...">
+                        <img src="{{ asset('assets/img/sante/1.JPG') }}" class="rounded" alt="...">
                     </div>
                     <div class="col-md-4 mt-4 wow fadeInUp" data-wow-delay="300ms">
-                        <img src="{{ asset('assets/img/sante/2.jpg') }}" class="rounded" alt="...">
+                        <img src="{{ asset('assets/img/sante/2.JPG') }}" class="rounded" alt="...">
                     </div>
                     <div class="col-md-4 mt-4 wow fadeInUp" data-wow-delay="400ms">
-                        <img src="{{ asset('assets/img/sante/4.jpg') }}" class="rounded" alt="...">
+                        <img src="{{ asset('assets/img/sante/4.JPG') }}" class="rounded" alt="...">
                     </div>
                 </div>
                 {{-- <div class="wow fadeIn" data-wow-delay="200ms">
