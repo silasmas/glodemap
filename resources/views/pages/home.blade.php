@@ -52,7 +52,7 @@
                         class="py-5 overflow-hidden bg-dark px-1-9 px-lg-8 rounded-top-sm-right position-relative h-100">
                         <div class="d-flex justify-content-between align-items-center">
                             <h3 class="mb-0 text-white h4 pe-5"><a href="{{ route('detailService',['id'=>" 2"])
-                                    }}">Douanes</a></h3>
+                                    }}">@lang("info.titre.douane")</a></h3>
                             <a href="{{ route('detailService',['id'=>" 2"]) }}"
                                 class="text-white display-19 lh-1">&#10230;</a>
                             <i
