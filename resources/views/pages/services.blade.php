@@ -26,9 +26,9 @@
                     <div class="card-img bg-img" data-overlay-dark="6" data-background="{{asset('assets/img/sante/douane.jpg') }}"></div>
                     <div class="card-body primary-shadow">
                         <div class="text-stroke-dark text-white display-2 fw-bold mb-3">02</div>
-                        <h3 class="mb-3 h4">Douanes</h3>
+                        <h3 class="mb-3 h4">@lang("info.titre.douane")</h3>
                         <p class="mb-0">Nous faisons le dédouanement des marchandises en importation et en exportation.</p>
-                    <a href="{{ route('detailService',['id'=>"2"]) }}">Voir plus</a>
+                    <a href="{{ route('detailService',['id'=>"3"]) }}">Voir plus</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                         <div class="text-stroke-dark text-white display-2 fw-bold mb-3">03</div>
                         <h3 class="mb-3 h4">Santé</h3>
                         <p class="mb-0">Nous avons un centre hospitalier  qui fait la fierté du coin avec des services impeccables.</p>
-                        <a href="{{ route('detailService',['id'=>"3"]) }}">Voir plus</a>
+                        <a href="{{ route('detailService',['id'=>"2"]) }}">Voir plus</a>
                     </div>
                 </div>
             </div>

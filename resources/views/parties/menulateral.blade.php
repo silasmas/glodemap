@@ -3,11 +3,11 @@
         <li class="{{$i==1?"active":"" }}">
             <a href="{{ route('detailService',['id'=>1]) }}">Transport </a>
         </li>
-        <li class="{{$i==2?"active":"" }}">
-            <a href="{{ route('detailService',['id'=>2]) }}">Douanes</a>
-        </li>
         <li class="{{$i==3?"active":"" }}">
-            <a href="{{ route('detailService',['id'=>3]) }}">Santé</a>
+            <a href="{{ route('detailService',['id'=>3]) }}">@lang("info.titre.douane")</a>
+        </li>
+        <li class="{{$i==2?"active":"" }}">
+            <a href="{{ route('detailService',['id'=>2]) }}">Santé</a>
         </li>
 
     </ul>

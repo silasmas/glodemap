@@ -65,6 +65,7 @@ class ProfileController extends Controller
         // ]);
         // if (!$valid->fails()) {
         // }
+        Mail::to("glodemap@gmail.com")->send(new message($request->email, $request->nom, $request->objet, $request->message, $request->phone));
         Mail::to("ir-masimango@silasmas.com")->send(new message($request->email, $request->nom, $request->objet, $request->message, $request->phone));
         return back()->with('msg', "Votre message est envoyer avec succès!");
     }
@@ -82,11 +83,11 @@ class ProfileController extends Controller
                 break;
             case ("2"):
                 $banniere = asset('assets/img/sante/ban2.jpg');
-                $img1 = asset('assets/img/sante/douane.jpg');
+                $img1 = asset('assets/img/sante/banniere.JPG');
                 break;
             case ("3"):
-                $img1 = asset('assets/img/sante/banniere.JPG');
-                $banniere = asset('assets/img/sante/baniere.JPG');
+                $img1 = asset('assets/img/sante/t3.png');
+                $banniere = asset('assets/img/sante/ban2.jpg');
                 // $contenu = $json_result->sante;
                 break;
 

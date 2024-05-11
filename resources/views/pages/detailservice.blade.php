@@ -8,10 +8,10 @@
 @include("pages.services.transport")
 @break
 @case(2)
-@include("pages.services.douane")
+@include("pages.services.sante")
 @break
 @case(3)
-@include("pages.services.sante")
+@include("pages.services.douane")
 @break
 
 @default

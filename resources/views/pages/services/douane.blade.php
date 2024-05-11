@@ -29,10 +29,10 @@
 
                 <div class="wow fadeIn" data-wow-delay="200ms">
                     <h2 class="mb-3">
-                        Notre agence de douane
+                        Notre département de @lang("info.titre.douane")
                     </h2>
                     <p>
-                        Notre agence bénéficie d'une expertise démontrée par une connaissance approfondie des réglementations douanières nationales et internationales, ainsi qu'une expérience pratique dans le domaine. Nous traitons chaque transaction avec professionnalisme afin d'assurer des opérations douanières fluides et sans accroc. Nous accordons une importance primordiale à nos partenaires en leur offrant un service réactif et de haute qualité pour répondre efficacement à leurs besoins et préoccupations. Nos valeurs fondamentales sont la rapidité, l'honnêteté et la communication en temps réel avec nos clients.
+                        Notre département bénéficie d'une expertise démontrée par une connaissance approfondie des réglementations douanières nationales et internationales, ainsi qu'une expérience pratique dans le domaine. Nous traitons chaque transaction avec professionnalisme afin d'assurer des opérations douanières fluides et sans accroc. Nous accordons une importance primordiale à nos partenaires en leur offrant un service réactif et de haute qualité pour répondre efficacement à leurs besoins et préoccupations. Nos valeurs fondamentales sont la rapidité, l'honnêteté et la communication en temps réel avec nos clients.
                         Nous collaborons avec plusieurs partenaires tels que le commerce général, les supermarchés, les boulangeries, les sociétés d'importation, et bien d'autres encore.
 
                     </p>

@@ -222,7 +222,7 @@
                     <div class="p-0 bg-transparent card-body">
                         <div class="card-front">
                             <i class="mb-4 bi bi-shield-check text-secondary display-14"></i>
-                            <h3 class="mb-3 h4">Douanes</h3>
+                            <h3 class="mb-3 h4">@lang("info.titre.douane")</h3>
                             <p class="mb-0">Nous faisons le dédouanement des marchandises en importation et en
                                 exportation.</p>
                         </div>
@@ -235,49 +235,6 @@
                 </div>
             </div>
 
-            {{-- <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="700ms">
-                <div class="bg-transparent border-0 card card-style3">
-                    <div class="p-0 bg-transparent card-body">
-                        <div class="card-front">
-                            <i class="mb-4 icon-presentation text-secondary display-14"></i>
-                            <h3 class="mb-3 h4">Saving Investments</h3>
-                            <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
-                        </div>
-                        <div class="card-back bg-img cover-background" data-background="img/content/service-04.jpg">
-                            <div class="card-butn"><a href="saving-investments.html" class="butn md">read more</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="900ms">
-                <div class="bg-transparent border-0 card card-style3">
-                    <div class="p-0 bg-transparent card-body">
-                        <div class="card-front">
-                            <i class="mb-4 icon-hotairballoon text-secondary display-14"></i>
-                            <h3 class="mb-3 h4">Detail Report</h3>
-                            <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
-                        </div>
-                        <div class="card-back bg-img cover-background" data-background="img/content/service-05.jpg">
-                            <div class="card-butn"><a href="detail-report.html" class="butn md">read more</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mt-1-9 wow fadeIn" data-wow-delay="1100ms">
-                <div class="bg-transparent border-0 card card-style3">
-                    <div class="p-0 bg-transparent card-body">
-                        <div class="card-front">
-                            <i class="mb-4 icon-genius text-secondary display-14"></i>
-                            <h3 class="mb-3 h4">Business Consulting</h3>
-                            <p class="mb-0">We offers plan and assemble managing for you from startups.</p>
-                        </div>
-                        <div class="card-back bg-img cover-background" data-background="img/content/service-06.jpg">
-                            <div class="card-butn"><a href="business-consulting.html" class="butn md">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </div>
     <img src="{{ asset('assets/img/bg/bg-shape6.png') }}"
