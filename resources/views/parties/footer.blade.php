@@ -4,14 +4,14 @@
             <div class="col-lg-4 mb-1-9 mb-lg-0 wow fadeIn" data-wow-delay="200ms">
                 <img src="{{ asset('assets/img/logos/footer-light-logo.png') }}" class="mb-4" alt="..." />
                 <p class="text-white mb-1-9 w-xxl-85">Une solution d'entreprise pour un bien être du peuple congolais.</p>
-                <div class="social-icons2">
+                {{-- <div class="social-icons2">
                     <ul class="mb-0 ps-0">
                         <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
                         <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="#!"><i class="fab fa-instagram"></i></a></li>
                         <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <div class="col-lg-8">
                 <div class="row">
