@@ -84,7 +84,7 @@
                             </div>
                             <p>est une entreprise de commerce général évoluant dans les secteurs des :</p>
                             <ul class="mb-0 list-style1">
-                                <li>Douanes</li>
+                                <li>@lang("info.titre.douane")</li>
                                 <li>Transport</li>
                                 <li>Santé</li>
                             </ul>
