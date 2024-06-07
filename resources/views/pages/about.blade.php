@@ -114,7 +114,7 @@
                                                 <div class="col-md-11 col-lg-6 mb-2-9 mb-lg-0 position-relative">
                                                     <div class="row">
                                                         <div class="col-6 mt-n2-9">
-                                                            <img src="{{asset('assets/img/sante/ab1.JPG')}}"
+                                                            <img src="{{asset('assets/img/sante/v.JPG')}}"
                                                                 class="border-radius-10 wow fadeInUp tilt" alt=""
                                                                 data-wow-delay="200ms">
                                                         </div>
