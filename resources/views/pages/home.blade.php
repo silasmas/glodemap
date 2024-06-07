@@ -251,7 +251,7 @@
         <div class="row overlap-column">
             <div class="col-lg-6 bg-img cover-background border-radius-10 tilt d-none d-lg-block wow fadeIn"
                 data-wow-delay="100ms" data-overlay-dark="0"
-                data-background="{{ asset('assets/img/sante/form.jpg') }}"></div>
+                data-background="{{ asset('assets/img/sante/aboutHomeform.jpg') }}"></div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="200ms">
                 <div class="become-client-form p-1-6 p-sm-2-9 border-radius-10">
                     <div class="text-center title-style2 text-lg-start mb-1-9">

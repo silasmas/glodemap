@@ -32,10 +32,10 @@
                                         </div>
                                     </li> --}}
                                 </ul>
-                                <div class="resp-tabs-container box-shadow-large bg-white hor_1">
+                                <div class="bg-white resp-tabs-container box-shadow-large hor_1">
                                     <div class="first">
 
-                                        <div class="bg-white box-shadow-large p-2-5 rounded">
+                                        <div class="bg-white rounded box-shadow-large p-2-5">
                                             <div class="row">
                                                 <div class="col-md-11 col-lg-6 mb-2-9 mb-lg-0 position-relative">
                                                     <div class="row">
@@ -45,7 +45,7 @@
                                                                 data-wow-delay="200ms">
                                                         </div>
                                                         <div class="col-6">
-                                                            <img src="{{asset('assets/img/sante/form.jpg')}}"
+                                                            <img src="{{asset('assets/img/sante/aboutHomeform.jpg')}}"
                                                                 class="border-radius-10 wow fadeInUp tilt" alt=""
                                                                 data-wow-delay="400ms">
                                                         </div>
@@ -84,12 +84,12 @@
                                                                     questions.</strong></span>
                                                         </div> --}}
                                                         <div class="border-bottom mb-1-9 pb-1-9">
-                                                            <h5 class="d-inline-block h6 me-4 mb-0">(+243) 898552773
+                                                            <h5 class="mb-0 d-inline-block h6 me-4">(+243) 898552773
                                                             </h5>
-                                                            <div class="d-inline-block me-4 align-top"><strong
+                                                            <div class="align-top d-inline-block me-4"><strong
                                                                     class="font-weight-700 text-primary">ou</strong>
                                                             </div>
-                                                            <h5 class="d-inline-block h6 mb-0"><a
+                                                            <h5 class="mb-0 d-inline-block h6"><a
                                                                     href="#!">ptuzitana@gmail.com</a></h5>
                                                         </div>
                                                         <div class="d-flex justify-content-between">
@@ -109,12 +109,12 @@
                                     </div>
                                     <div class="second">
 
-                                        <div class="bg-white box-shadow-large p-2-5 rounded">
+                                        <div class="bg-white rounded box-shadow-large p-2-5">
                                             <div class="row">
                                                 <div class="col-md-11 col-lg-6 mb-2-9 mb-lg-0 position-relative">
                                                     <div class="row">
                                                         <div class="col-6 mt-n2-9">
-                                                            <img src="{{asset('assets/img/sante/vision.jpg')}}"
+                                                            <img src="{{asset('assets/img/sante/ab1.JPG')}}"
                                                                 class="border-radius-10 wow fadeInUp tilt" alt=""
                                                                 data-wow-delay="200ms">
                                                         </div>
@@ -141,12 +141,12 @@
                                                                 </button>
                                                         </p>
                                                         <div class="border-bottom mb-1-9 pb-1-9">
-                                                            <h5 class="d-inline-block h6 me-4 mb-0">(+243) 898552773
+                                                            <h5 class="mb-0 d-inline-block h6 me-4">(+243) 898552773
                                                             </h5>
-                                                            <div class="d-inline-block me-4 align-top"><strong
+                                                            <div class="align-top d-inline-block me-4"><strong
                                                                     class="font-weight-700 text-primary">ou</strong>
                                                             </div>
-                                                            <h5 class="d-inline-block h6 mb-0"><a
+                                                            <h5 class="mb-0 d-inline-block h6"><a
                                                                     href="#!">ptuzitana@gmail.com</a></h5>
                                                         </div>
                                                         <div class="d-flex justify-content-between">
@@ -166,7 +166,7 @@
                                     </div>
                                     {{-- <div class="third">
 
-                                        <div class="bg-white box-shadow-large p-2-5 rounded">
+                                        <div class="bg-white rounded box-shadow-large p-2-5">
                                             <div class="row">
                                                 <div class="col-lg-6 mb-1-6 mb-lg-0">
                                                     <img src="{{ asset('assets/img/content/tab-03.jpg') }}"
@@ -181,7 +181,7 @@
                                                             occaecat
                                                             cupidatat non design proident.</p>
 
-                                                        <ul class="list-style4 ps-0 mb-0">
+                                                        <ul class="mb-0 list-style4 ps-0">
                                                             <li>Exclusive design</li>
                                                             <li>Life time supports</li>
                                                             <li>Solve your problem with us</li>
@@ -212,8 +212,8 @@
 ================================================== -->
 <section class="py-0">
     <div class="container">
-        <div class="bg-img pb-5" data-overlay-light="9" data-background="assets/img/bg/bg-07.png">
-            <div class="row text-center position-relative z-index-1">
+        <div class="pb-5 bg-img" data-overlay-light="9" data-background="assets/img/bg/bg-07.png">
+            <div class="text-center row position-relative z-index-1">
                 <div class="col-6 col-lg-3 mb-1-6 mb-lg-0 wow fadeInUp" data-wow-delay="100ms">
                     <div>
                         <h3 class="font-weight-600 display-14 display-sm-12 display-lg-10 text-primary"><span
@@ -249,12 +249,12 @@
 
 <!-- EXTRA
 ================================================== -->
-<section class="vision-changebg owl-carousel owl-theme py-0 bg-img cover-background" data-overlay-dark="0"
+<section class="py-0 vision-changebg owl-carousel owl-theme bg-img cover-background" data-overlay-dark="0"
     data-background="assets/img/bg/bg-10.jpg">
     <div class="vision-wrapper bg-img cover-background" data-overlay-dark="5"
         data-background="assets/img/sante/approche.jpg">
         <div class="vision-content">
-            <h4 class="text-white mb-3 font-weight-500">Notre approche</h4>
+            <h4 class="mb-3 text-white font-weight-500">Notre approche</h4>
             <p class="mb-0 text-white">The modern world is in a continuous movement and people everywhere are looking.
             </p>
         </div>
@@ -262,7 +262,7 @@
     <div class="vision-wrapper bg-img cover-background" data-overlay-dark="5"
         data-background="assets/img/sante/vision.jpg">
         <div class="vision-content">
-            <h4 class="text-white mb-3 font-weight-500">Notre Vision</h4>
+            <h4 class="mb-3 text-white font-weight-500">Notre Vision</h4>
             <p class="mb-0 text-white">The modern world is in a continuous movement and people everywhere are looking.
             </p>
         </div>
@@ -270,7 +270,7 @@
     <div class="vision-wrapper bg-img cover-background" data-overlay-dark="5"
         data-background="assets/img/sante/mission.jpg">
         <div class="vision-content">
-            <h4 class="text-white mb-3 font-weight-500">Notre Mission</h4>
+            <h4 class="mb-3 text-white font-weight-500">Notre Mission</h4>
             <p class="mb-0 text-white">The modern world is in a continuous movement and people everywhere are looking.
             </p>
         </div>
@@ -278,7 +278,7 @@
     <div class="vision-wrapper bg-img cover-background" data-overlay-dark="5"
         data-background="assets/img/sante/valeur.jpg">
         <div class="vision-content">
-            <h4 class="text-white mb-3 font-weight-500">Nos Valeurs</h4>
+            <h4 class="mb-3 text-white font-weight-500">Nos Valeurs</h4>
             <p class="mb-0 text-white">The modern world is in a continuous movement and people everywhere are looking.
             </p>
         </div>
