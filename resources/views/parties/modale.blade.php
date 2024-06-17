@@ -56,7 +56,7 @@
                 <h3>Qu'avez-vous tiré comme leçon ??</h3>
                 En regardant en arrière, je tire de nombreuses leçons de vie, parmi lesquelles les principales sont :
 
-                <ul class="list-style1 mb-0">
+                <ul class="mb-0 list-style1">
                     <li>
                         La connaissance de soi,
                     </li>
@@ -77,7 +77,7 @@
                 <br>
                 <p>
                     Aujourd'hui, je m'efforce de sensibiliser la jeunesse à l'entrepreneuriat, car c'est l'un des moyens
-                    de sortir le pays de la pauvreté. Le travail acharné c’est là la source du respect « TOZINATANA »,
+                    de sortir le pays de la pauvreté. Le travail acharné c’est là la source du respect « TUZITANA »,
                     s’affectionner à sa passion pour le bien des autres, c’est là le sens de l’amour « KAZOLA »
                 </p>
 

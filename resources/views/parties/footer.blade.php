@@ -24,7 +24,7 @@
                                     </div>
                                     <div class="flex-grow-1 ms-3">
                                         <h4 class="mb-1 text-white h5">Phone</h4>
-                                        <p class="mb-0 text-white opacity8 small">(243)898552773</p>
+                                        <p class="mb-0 text-white opacity8 small">@lang("info.titre.phone")</p>
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="flex-grow-1 ms-3">
                                         <h4 class="mb-1 text-white h5">Email</h4>
-                                        <p class="mb-0 text-white opacity8 small"> ptuzitana@gmail.com</p>
+                                        <p class="mb-0 text-white opacity8 small">@lang("info.titre.mail")</p>
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                                     <div class="flex-grow-1 ms-3">
                                         <h4 class="mb-1 text-white h5">Location</h4>
                                         <p class="mb-0 text-white opacity8 small">
-                                            RDC, V/Kinshasa, C/Gombé, Boulevard du 30 juin, Galerie présidentielle.
+                                           @lang("info.titre.address")
                                         </p>
                                     </div>
                                 </div>

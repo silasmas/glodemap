@@ -2,11 +2,12 @@
 return [
     'titre' => [
         'mail' => 'glodemap@gmail.com',
-        'address' => 'RDC, V/Kinshasa, C/Gombé, Boulevard du 30 juin, Galerie présidentielle.',
-        'phone' => '+243898552773',
+        'address' => 'Ex Flambeau, N°7553, Av Kabasele Tshamala, Gombe-Kinshasa Réf : I.N.A',
+        'phone' => '+243897529772',
         'slogan' => "Une solution d'entreprise pour un bien être du peuple congolais.",
         'experience' => ' +10 ans',
         'douane' => ' Dédouanement',
+        'ceo' => ' TUZITANA KAZOLA Patsheley',
     ],
 
 ];

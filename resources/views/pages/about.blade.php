@@ -84,20 +84,22 @@
                                                                     questions.</strong></span>
                                                         </div> --}}
                                                         <div class="border-bottom mb-1-9 pb-1-9">
-                                                            <h5 class="mb-0 d-inline-block h6 me-4">(+243) 898552773
+                                                            <h5 class="mb-0 d-inline-block h6 me-4">
+                                                                @lang("info.titre.phone")
                                                             </h5>
                                                             <div class="align-top d-inline-block me-4"><strong
                                                                     class="font-weight-700 text-primary">ou</strong>
                                                             </div>
                                                             <h5 class="mb-0 d-inline-block h6"><a
-                                                                    href="#!">ptuzitana@gmail.com</a></h5>
+                                                                    href="#!">@lang("info.titre.mail")</a></h5>
                                                         </div>
                                                         <div class="d-flex justify-content-between">
-                                                            <p class="mb-0"><span
-                                                                    class="font-weight-700 d-block">TUZITANA KAZOLA
-                                                                    Patsheley</span>CEO de la compagnie</p>
+                                                            <p class="mb-0">
+                                                                <span class="font-weight-700 d-block">@lang("info.titre.ceo")
+                                                                </span>CEO de la compagnie</p>
+                                                                <br>
                                                             <div>
-                                                                <img src="{{asset('assets/img/content/sign.png') }}"
+                                                                <img src="{{asset('assets/img/sante/signature.png') }}" width="200"
                                                                     alt="...">
                                                             </div>
                                                         </div>
@@ -141,20 +143,22 @@
                                                                 </button>
                                                         </p>
                                                         <div class="border-bottom mb-1-9 pb-1-9">
-                                                            <h5 class="mb-0 d-inline-block h6 me-4">(+243) 898552773
+                                                            <h5 class="mb-0 d-inline-block h6 me-4">
+                                                                @lang("info.titre.phone")
                                                             </h5>
                                                             <div class="align-top d-inline-block me-4"><strong
                                                                     class="font-weight-700 text-primary">ou</strong>
                                                             </div>
                                                             <h5 class="mb-0 d-inline-block h6"><a
-                                                                    href="#!">ptuzitana@gmail.com</a></h5>
+                                                                    href="#!">@lang("info.titre.mail")</a></h5>
                                                         </div>
                                                         <div class="d-flex justify-content-between">
-                                                            <p class="mb-0"><span
-                                                                    class="font-weight-700 d-block">TUZITANA KAZOLA
-                                                                    Patsheley</span>CEO de la compagnie</p>
+                                                            <p class="mb-0">
+                                                                <span class="font-weight-700 d-block">@lang("info.titre.ceo")
+                                                                </span>CEO de la compagnie</p>
+                                                                <br>
                                                             <div>
-                                                                <img src="{{asset('assets/img/content/sign.png') }}"
+                                                                <img src="{{asset('assets/img/sante/signature.png') }}" width="200"
                                                                     alt="...">
                                                             </div>
                                                         </div>
