@@ -134,7 +134,7 @@
                                                         </div>
                                                         <h2 class="h1 mb-1-9 fw-bold">Une affaire d’espoir </h2>
                                                         <p class="mb-1-9">
-                                                            TOZINATANA KAZOLA Patshely, Directeur Général de la société GLODEMAP. Mon nom, traduit du Kikongo ma langue maternelle, signifie « Respectons-nous, aimons-nous ». Je suis né à Kinshasa dans les années 80, aîné d'une fratrie de sept enfants. Mes parents se nomment KUNTONA Alexis et Tmungu Nzambi, tous deux encore en vie.
+                                                            @lang("info.titre.ceo"), Directeur Général de la société GLODEMAP. Mon nom, traduit du Kikongo ma langue maternelle, signifie « Respectons-nous, aimons-nous ». Je suis né à Kinshasa dans les années 80, aîné d'une fratrie de sept enfants. Mes parents se nomment KUNTONA Alexis et Tmungu Nzambi, tous deux encore en vie.
 
                                                             Je viens d'une famille modeste, ce qui a limité mes possibilités d'accès à une éducation de qualité. Vers 1992, je me suis retrouver à Matadi pour mes études, placé sous la tutelle de mon oncle Wamba Luzolo. C'est avec son soutien que j'ai obtenu mon diplôme d'État (bac) en mécanique générale à l'institut ITP Matadi en 2006.
 
