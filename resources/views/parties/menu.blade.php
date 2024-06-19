@@ -69,7 +69,7 @@
                                 <ul>
                                     {{-- <li class="search"><a href="#!"><i class="fas fa-search"></i></a></li> --}}
                                     <li class="d-none d-xl-inline-block"><a href="tel:243898552773"
-                                            class="text-white shadow-none butn secondary medium">+243 898552773</a></li>
+                                            class="text-white shadow-none butn secondary medium">@lang("info.titre.phone")</a></li>
                                 </ul>
                             </div>
                             <!-- end attribute navigation -->

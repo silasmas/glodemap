@@ -7,6 +7,7 @@ return [
         'slogan' => "Une solution d'entreprise pour un bien être du peuple congolais.",
         'experience' => ' +10 ans',
         'douane' => ' Dédouanement',
+        'titre' => 'Directeur général',
         'ceo' => ' TUZITANA KAZOLA Patsheley',
     ],
 

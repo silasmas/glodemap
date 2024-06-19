@@ -96,7 +96,7 @@
                                                         <div class="d-flex justify-content-between">
                                                             <p class="mb-0">
                                                                 <span class="font-weight-700 d-block">@lang("info.titre.ceo")
-                                                                </span>CEO de la compagnie</p>
+                                                                </span>@lang("info.titre.titre")</p>
                                                                 <br>
                                                             <div>
                                                                 <img src="{{asset('assets/img/sante/signature.png') }}" width="200"
@@ -121,7 +121,7 @@
                                                                 data-wow-delay="200ms">
                                                         </div>
                                                         <div class="col-6">
-                                                            <img src="{{asset('assets/img/sante/form.jpg')}}"
+                                                            <img src="{{asset('assets/img/sante/aboutHomeform.jpg')}}"
                                                                 class="border-radius-10 wow fadeInUp tilt" alt=""
                                                                 data-wow-delay="400ms">
                                                         </div>
@@ -155,7 +155,7 @@
                                                         <div class="d-flex justify-content-between">
                                                             <p class="mb-0">
                                                                 <span class="font-weight-700 d-block">@lang("info.titre.ceo")
-                                                                </span>CEO de la compagnie</p>
+                                                                </span>@lang("info.titre.titre")</p>
                                                                 <br>
                                                             <div>
                                                                 <img src="{{asset('assets/img/sante/signature.png') }}" width="200"

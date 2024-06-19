@@ -21,8 +21,9 @@
                     </div>
                     <div class="card-body p-1-9">
                         <p class="mb-0">
-                            République Démocratique du Congo, ville de Kinshasa, commune de Gombé, Boulevard du 30 juin,
-                            Galerie présidentielle.
+                            {{-- République Démocratique du Congo, ville de Kinshasa, commune de Gombé, Boulevard du 30 juin,
+                            Galerie présidentielle. --}}
+                            @lang("info.titre.address")
                         </p>
                     </div>
                 </div>
@@ -34,7 +35,7 @@
                         <i class="icon-mobile display-7 text-white opacity2 position-absolute top-n10 end-0"></i>
                     </div>
                     <div class="card-body p-1-9">
-                        <p class="mb-0">+ (243) 898552773</p>
+                        <p class="mb-0">@lang("info.titre.phone")</p>
                         {{-- <p class="mb-0">(+44) 123 456 789</p> --}}
                     </div>
                 </div>
@@ -46,7 +47,7 @@
                         <i class="icon-chat display-7 text-white opacity2 position-absolute top-n10 end-0"></i>
                     </div>
                     <div class="card-body p-1-9">
-                        <p class="mb-0">ptuzitana@gmail.com</p>
+                        <p class="mb-0">@lang("info.titre.mail")</p>
                         {{-- <p class="mb-0">info@yourdomain.com</p> --}}
                     </div>
                 </div>
