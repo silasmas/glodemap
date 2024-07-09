@@ -1,4 +1,4 @@
-<section class="py-5 bg-secondary mx-lg-6 border-radius-lg-10 wow fadeIn mt-5 mb-5" data-wow-delay="100ms">
+{{-- <section class="py-5 mt-5 mb-5 bg-secondary mx-lg-6 border-radius-lg-10 wow fadeIn" data-wow-delay="100ms">
     <div class="container-fluid px-md-14">
         <div class="text-center owl-carousel owl-theme clients-style3">
             <div class="image-wrapper">
@@ -31,4 +31,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}

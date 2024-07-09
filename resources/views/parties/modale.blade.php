@@ -27,7 +27,7 @@
                 </p>
                 <p>
                     Cependant, l'esprit d'entrepreneur ne m'a jamais quitté. J'ai utilisé cet argent pour démarrer un
-                    nouveau projet en devenant vendeur ambulant de boudin. J'ai lancé cette activité alors que je
+                    nouveau projet en devenant vendeur ambulant de jambon. J'ai lancé cette activité alors que je
                     devenais déjà père de famille.
                     Face à la réalité, en 2012, j'ai été employé dans une entreprise appartenant à des Indiens où je
                     gagnais 140 000 CDF (cent quarante mille Francs). Au bout d'un an, j'ai démissionné de ce travail,
@@ -37,9 +37,9 @@
                 <p>
                     Je suis allé à Lufu où j'ai commencé un business de vente de « makayabu » (poisson salé) avec
                     l'encouragement de "Tonton Diabondo", un jeune du quartier qui était enthousiaste à l'idée de
-                    travailler au port de Lufu comme porteur.
+                    travailler à la frontière de Lufu comme porteur.
 
-                    Un jour, alors que j'étais à Lufu, « Jancy Zola » un ancien camarade de classe revenu de l'Angola,
+                    Un jour, alors que j'étais à Lufu, « Jancy Zola » une relation de tonton diabondo revenu de l'Angola,
                     cherchait un déclarant pour dédouaner ses six conteneurs. J'ai pris mon alors pour m’improvisé en
                     tant que déclarant pour lui, malgré mon manque d'expérience dans ce domaine.
 
@@ -49,7 +49,7 @@
                     satisfaction de mon ami. C'était là mon tout premier contrat qui a marqué le début de mon parcours
                     entrepreneurial.
 
-                    Au retour de Jancy, il m'a recommandé à tout son réseau, y compris Trésor Mengi qui par la suite a
+                    Au retour de Jancy, il m'a recommandé à tout son réseau, y compris Trésor MAMENGI qui par la suite a
                     été un partenaire important à mon business. C'est à partir de là que GLODEMAP a vu le jour.
 
                 </p>
